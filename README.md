@@ -17,4 +17,13 @@ Bridging the cybersecurity gap for SMBs, students, and tech-conscious individual
 | **Office Tech Services** | Privacy assurance protocols | 📅 Planned |
 | **Cybersecurity Merch** | Educational resources | 🛒 Available |
 
+
+
 <img width="4017" height="703" alt="image-diagram" src="https://github.com/user-attachments/assets/2769c057-c08d-4d6a-9562-bc86b41ccff9" />
+
+
+![OWASP](https://img.shields.io/badge/OWASP-Compliant-4A90E2)
+![GDPR](https://img.shields.io/badge/GDPR-Ready-4CAF50)
+![SSL](https://img.shields.io/badge/SSL-A+%20Rating-FF6B6B)
+![Encryption](https://img.shields.io/badge/Encryption-AES--256-9C27B0)
+
