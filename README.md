@@ -17,12 +17,4 @@ Bridging the cybersecurity gap for SMBs, students, and tech-conscious individual
 | **Office Tech Services** | Privacy assurance protocols | 📅 Planned |
 | **Cybersecurity Merch** | Educational resources | 🛒 Available |
 
-graph LR
-    A[User Request] --> B{Security Assessment}
-    B -->|Secure| C[Encrypted Processing]
-    B -->|Risky| D[Enhanced Verification]
-    C --> E[Protected Service Delivery]
-    D --> E
-    E --> F[24/7 Security Monitoring]
-
-    
+<img width="4017" height="703" alt="image-diagram" src="https://github.com/user-attachments/assets/2769c057-c08d-4d6a-9562-bc86b41ccff9" />
