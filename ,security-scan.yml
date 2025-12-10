@@ -1,0 +1,29 @@
+# .github/workflows/security-scan.yml
+name: Security Scanning
+on: [push, pull_request, schedule]
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Run Snyk Security Scan
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      
+      - name: Dependency Vulnerability Scan
+        run: |
+          npm audit --audit-level=high || true
+      
+      - name: SAST Analysis
+        uses: github/codeql-action/analyze@v2
+        with:
+          languages: javascript, typescript
+          
+      - name: Secret Scanning
+        uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --regex --entropy=False
